@@ -1,0 +1,5 @@
+starter\CucumberTestSuite.class
+step\Register.class
+starter\CucumberWithSerenity.class
+stepdefinition\RegisterS3.class
+stepdefinition\RegS3.class
