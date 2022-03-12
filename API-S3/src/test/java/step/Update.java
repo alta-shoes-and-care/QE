@@ -5,21 +5,21 @@ import net.serenitybdd.rest.SerenityRest;
 import net.thucydides.core.annotations.Step;
 import org.json.JSONObject;
 
-public class Register {
-    public static String URLCreate = "https://ynwahid.cloud.okteto.net/users";
+
+public class Update {
+    public static String URLCreate = "https://ynwahid.cloud.okteto.net/users/jwt/me";
 
     @Step
-    public static void RegisS3(String name, String email, String password) {
+    public static void ChangeName(String name) {
         JSONObject data = new JSONObject();
         data.put("name", name);
-        data.put("email", email);
-        data.put("password", password);
 
         SerenityRest.given()
                 .contentType(ContentType.JSON)
                 .body(data.toString())
+                .body(name)
                 .log().all()
                 .when()
-                .post(URLCreate);
+                .put(URLCreate);
     }
 }

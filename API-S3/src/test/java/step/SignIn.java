@@ -5,13 +5,12 @@ import net.serenitybdd.rest.SerenityRest;
 import net.thucydides.core.annotations.Step;
 import org.json.JSONObject;
 
-public class Register {
-    public static String URLCreate = "https://ynwahid.cloud.okteto.net/users";
+public class SignIn {
+    public static String URLCreate = "https://ynwahid.cloud.okteto.net/login";
 
     @Step
-    public static void RegisS3(String name, String email, String password) {
+    public static void SignIn3(String email, String password) {
         JSONObject data = new JSONObject();
-        data.put("name", name);
         data.put("email", email);
         data.put("password", password);
 
