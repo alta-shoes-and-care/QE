@@ -8,8 +8,8 @@ In the testing process using manual and automation testing with a behavior and u
 
 ## Contact
 
-- [Adhitya Dwi P](https://github.com/Adhitya87)
-- [zahra A S ](https://github.com/zahrasept)
+- [Adhitya Dwi Prananta](https://github.com/Adhitya87)
+- [Zahra Asri Septia ](https://github.com/zahrasept)
 - [Rendy Setiawan](https://github.com/rndsetiawan)
 
 
