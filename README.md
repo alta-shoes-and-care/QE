@@ -39,6 +39,9 @@ In the testing process using manual and automation testing with a behavior and u
 **Testing Tools for automation:** 
 - IntelliJ IDEA
 
+**Framework for automation:**
+- Serenity BDD
+
 **Documentation Tools:** 
 - Google spreadsheet
 
