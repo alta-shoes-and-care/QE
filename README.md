@@ -34,15 +34,18 @@ In the testing process using manual and automation testing with a behavior and u
 ## Tech Stack
 
 **Testing Tools for manual:** 
-- Postman
+- [Postman](https://www.postman.com/)
 
 **Testing Tools for automation:** 
-- IntelliJ IDEA
+- [IntelliJ IDEA](https://www.jetbrains.com/idea/)
 
 **Framework for automation:**
-- Serenity BDD
+- [Serenity BDD](https://serenity-bdd.info/)
 
 **Documentation Tools:** 
 - Google spreadsheet
 
+**Collaboration:**
+- [Trello (Work Management Tool)](https://trello.com/)
+- [GitHub (Version Control System Platform)](https://github.com/)
 
