@@ -33,17 +33,19 @@ In the testing process using manual and automation testing with a behavior and u
 
 ## Tech Stack
 
-**Testing Tools for manual:** 
+**Testing Tools for manual:**
+- [Google Chrome (WEB Browser)](https://www.google.com/chrome/)
 - [Postman](https://www.postman.com/)
 
 **Testing Tools for automation:** 
 - [IntelliJ IDEA](https://www.jetbrains.com/idea/)
+- [Google Chrome (WEB Browser)](https://www.google.com/chrome/)
 
 **Framework for automation:**
 - [Serenity BDD](https://serenity-bdd.info/)
 
 **Documentation Tools:** 
-- Google spreadsheet
+- [Google spreadsheet](https://www.google.com/sheets/about/)
 
 **Collaboration:**
 - [Trello (Work Management Tool)](https://trello.com/)
