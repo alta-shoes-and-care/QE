@@ -27,9 +27,9 @@ In the testing process using manual and automation testing with a behavior and u
 - 
 
 **API Automation Testing Screenshot:**
-- ![Update Services Image ]
+
   <img width=“964” alt=“Update Services Image” src=“https://github.com/alta-shoes-and-care/QE/blob/main/SS/API%20automation/UpdateServiceImage_(%2B).png 192”>
-- ![Update Data Services ](https://drive.google.com/file/d/1SGePo3bcJI42sbwQT7-Aly8RJc3L3NXt/view?usp=sharing)
+
 
 
 ## Tech Stack
