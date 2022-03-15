@@ -188,8 +188,11 @@
         <li >
             <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
         </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 10-03-2022 04:58</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 15-03-2022 21:48</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -204,7 +207,7 @@
                         <td width="375px" valign="top">
                             <div class="test-count-summary">
                                 <div class="test-count-title">
-                                    0 test scenarios 
+                                    21 test scenarios 
                                     
 
                                 </div>
@@ -228,6 +231,54 @@
                                             <div class="container-fluid">
                                                 <div class="row">
                                                     <div class="col-sm-4">
+                                                            <div style="width:300px;"
+                                                                 class="chart-container automated-and-manual-results">
+                                                                <div class="ct-chart ct-square"></div>
+                                                            </div>
+                                                            <script>
+
+                                                                var labels = ['90%', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '10%', ' ', ' ', ' ', ' ', ' '];
+                                                                // Our series array that contains series objects or in this case series data arrays
+
+                                                                var series = [{meta: 'Passing tests (automated)', value: 19}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 0}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 2}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 0}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
+
+                                                                // As options we currently only set a static size of 300x200 px. We can also omit this and use aspect ratio containers
+                                                                // as you saw in the previous example
+                                                                var options = {
+                                                                    width: 350,
+                                                                    height: 300
+                                                                };
+
+
+                                                                new Chartist.Pie('.ct-chart', {
+                                                                    series: series,
+                                                                    labels: labels
+                                                                }, {
+                                                                    plugins: [Chartist.plugins.tooltip()],
+                                                                    donut: true,
+                                                                    donutWidth: 60,
+                                                                    donutSolid: true,
+                                                                    startAngle: 270,
+                                                                    showLabel: true
+                                                                }, options);
+
+
+                                                                $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+                                                                    new Chartist.Pie('.ct-chart', {
+                                                                        series: series,
+                                                                        labels: labels
+                                                                    }, {
+                                                                        plugins: [Chartist.plugins.tooltip()],
+                                                                        donut: true,
+                                                                        donutWidth: 60,
+                                                                        donutSolid: true,
+                                                                        startAngle: 270,
+                                                                        showLabel: true
+                                                                    }, options);
+                                                                });
+
+
+                                                            </script>
                                                     </div>
                                                     <div class="col-sm-8">
 
@@ -244,11 +295,12 @@
                                                             </thead>
                                                             <tbody>
                                                             <tr>
-                                                                    <td class="aggregate-result-count"><i
-                                                                                class='fa fa-check-circle-o success-icon'></i>&nbsp;Passing
+                                                                    <td class="aggregate-result-count">
+                                                                        <a href="01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.html"><i
+                                                                                    class='fa fa-check-circle-o success-icon'></i>&nbsp;Passing</a>
                                                                     </td>
-                                                                <td class="automated-stats">0</td>
-                                                                <td class="automated-stats"> </td>
+                                                                <td class="automated-stats">19</td>
+                                                                <td class="automated-stats">90%</td>
                                                             </tr>
                                                             <tr>
                                                                     <td class="aggregate-result-count"><i
@@ -272,17 +324,18 @@
                                                                 <td class="automated-stats"> </td>
                                                             </tr>
                                                             <tr>
-                                                                        <td colspan="3"><i
-                                                                                    class='fa fa-times failure-icon'></i>&nbsp;<em>Unsuccessful</em></a>
+                                                                        <td colspan="3"><a
+                                                                                    href="b964a040ccee2192880812cc5de2c4d0075e3288c1b298b7dda0839367bb26be.html"><i
+                                                                                        class='fa fa-times failure-icon'></i>&nbsp;<em>Unsuccessful</em></a>
                                                                         </td>
                                                             </tr>
                                                             <tr>
                                                                     <td class="aggregate-result-count indented-error-category">
-                                                                        <i
-                                                                                class='fa fa-times-circle failure-icon'></i>&nbsp;Failed
+                                                                        <a href="da5b0c51b332adf0ef993a9f086d6a1b51a3d800248ec6ae281212092f35bd37.html"><i
+                                                                                    class='fa fa-times-circle failure-icon'></i>&nbsp;Failed</a>
                                                                     </td>
-                                                                <td class="automated-stats">0</td>
-                                                                <td class="automated-stats"> </td>
+                                                                <td class="automated-stats">2</td>
+                                                                <td class="automated-stats">10%</td>
                                                             <tr>
                                                                     <td class="aggregate-result-count indented-error-category">
                                                                         <i
@@ -300,7 +353,7 @@
                                                             </tr>
                                                             <tr class="summary-stats">
                                                                 <td class="aggregate-result-count">Total</td>
-                                                                <td class="automated-stats">0</td>
+                                                                <td class="automated-stats">21</td>
                                                                 <td class="automated-stats"></td>
                                                             </tr>
                                                             </tbody>
@@ -322,18 +375,660 @@
                                                             </thead>
                                                             <tbody>
                                                             <tr>
-                                                                <td>0ms</td>
-                                                                <td>0ms</td>
-                                                                <td>0ms</td>
-                                                                <td>0ms</td>
-                                                                <td>0ms</td>
+                                                                <td> 1m 59s</td>
+                                                                <td>3d  17h  17m 39s</td>
+                                                                <td>2s</td>
+                                                                <td>12s</td>
+                                                                <td>5s</td>
                                                             </tr>
                                                             </tbody>
                                                         </table>
                                                     </div>
                                                 </div>
+                                                    <div class="row">
+                                                        <div class="col-sm-12">
+                                                            <h3>Functional Coverage Overview</h3>
 
 
+                                                                    <h4>Features</h4>
+
+                                                                    <table class="table feature-coverage-table-with-pagination"
+                                                                           id="Feature">
+                                                                        <thead>
+                                                                        <tr>
+                                                                            <th>Feature</th>
+                                                                            <th style="width:7.5em;">Scenarios</th>
+                                                                            <th style="width:7.5em;">% Pass</th>
+                                                                            <th style="width:7.5em;">Result</th>
+                                                                            <th>Coverage</th>
+                                                                        </tr>
+                                                                        </thead>
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td>
+                                                                                        <a href="e05f36ccd7c148f92aa592d51a285c069c4f8b85b7ccf2e49729dae6ba2fc798.html">Admin Add New Services</a>
+                                                                                </td>
+                                                                                <td>1</td>
+                                                                                <td>100%</td>
+                                                                                <td>
+                                                                                        <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <div class="progress">
+                                                                                            <div class="progress-bar"
+                                                                                                 role="progressbar"
+                                                                                                 style="width: 100%; background-color: #30cb23"
+                                                                                                 aria-valuenow="1"
+                                                                                                 title="100% success"
+                                                                                                 aria-valuemin="0"
+                                                                                                 aria-valuemax="100">
+                                                                                            </div>
+                                                                                    </div>
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>
+                                                                                        <a href="1bd44476e7264fc75b24697b4f61de3a706597e15a36c8a63997997f15569f15.html">Admin Add Payment</a>
+                                                                                </td>
+                                                                                <td>1</td>
+                                                                                <td>100%</td>
+                                                                                <td>
+                                                                                        <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <div class="progress">
+                                                                                            <div class="progress-bar"
+                                                                                                 role="progressbar"
+                                                                                                 style="width: 100%; background-color: #30cb23"
+                                                                                                 aria-valuenow="1"
+                                                                                                 title="100% success"
+                                                                                                 aria-valuemin="0"
+                                                                                                 aria-valuemax="100">
+                                                                                            </div>
+                                                                                    </div>
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>
+                                                                                        <a href="cc9fecbbe0e5859f50703387ce926409bffeb3cdfa623f7cbbedb8f9349dca18.html">Admin can delete Services</a>
+                                                                                </td>
+                                                                                <td>1</td>
+                                                                                <td>100%</td>
+                                                                                <td>
+                                                                                        <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <div class="progress">
+                                                                                            <div class="progress-bar"
+                                                                                                 role="progressbar"
+                                                                                                 style="width: 100%; background-color: #30cb23"
+                                                                                                 aria-valuenow="1"
+                                                                                                 title="100% success"
+                                                                                                 aria-valuemin="0"
+                                                                                                 aria-valuemax="100">
+                                                                                            </div>
+                                                                                    </div>
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>
+                                                                                        <a href="6b58ca8e3e28b10bca9aab59f0f15d0a2e0039f53ff716370aeba31f80484204.html">Admin check all Payment Method List</a>
+                                                                                </td>
+                                                                                <td>1</td>
+                                                                                <td>100%</td>
+                                                                                <td>
+                                                                                        <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <div class="progress">
+                                                                                            <div class="progress-bar"
+                                                                                                 role="progressbar"
+                                                                                                 style="width: 100%; background-color: #30cb23"
+                                                                                                 aria-valuenow="1"
+                                                                                                 title="100% success"
+                                                                                                 aria-valuemin="0"
+                                                                                                 aria-valuemax="100">
+                                                                                            </div>
+                                                                                    </div>
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>
+                                                                                        <a href="2a72581cdeb86d8d8feaee97ecaba94992ef815589e8d1bffe62dc39d7917bf1.html">Admin check all Reviews</a>
+                                                                                </td>
+                                                                                <td>1</td>
+                                                                                <td>100%</td>
+                                                                                <td>
+                                                                                        <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <div class="progress">
+                                                                                            <div class="progress-bar"
+                                                                                                 role="progressbar"
+                                                                                                 style="width: 100%; background-color: #30cb23"
+                                                                                                 aria-valuenow="1"
+                                                                                                 title="100% success"
+                                                                                                 aria-valuemin="0"
+                                                                                                 aria-valuemax="100">
+                                                                                            </div>
+                                                                                    </div>
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>
+                                                                                        <a href="beee3a654e5377b1ba217da1d103a574950b3741b82a17099d1a8d208f0c07d8.html">Admin check all services</a>
+                                                                                </td>
+                                                                                <td>1</td>
+                                                                                <td>100%</td>
+                                                                                <td>
+                                                                                        <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <div class="progress">
+                                                                                            <div class="progress-bar"
+                                                                                                 role="progressbar"
+                                                                                                 style="width: 100%; background-color: #30cb23"
+                                                                                                 aria-valuenow="1"
+                                                                                                 title="100% success"
+                                                                                                 aria-valuemin="0"
+                                                                                                 aria-valuemax="100">
+                                                                                            </div>
+                                                                                    </div>
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>
+                                                                                        <a href="3275850e145dbe83d6cddb5076cab9ba97eed966cce48405c1fae41cee9dba00.html">Admin Check All User</a>
+                                                                                </td>
+                                                                                <td>1</td>
+                                                                                <td>100%</td>
+                                                                                <td>
+                                                                                        <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <div class="progress">
+                                                                                            <div class="progress-bar"
+                                                                                                 role="progressbar"
+                                                                                                 style="width: 100%; background-color: #30cb23"
+                                                                                                 aria-valuenow="1"
+                                                                                                 title="100% success"
+                                                                                                 aria-valuemin="0"
+                                                                                                 aria-valuemax="100">
+                                                                                            </div>
+                                                                                    </div>
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>
+                                                                                        <a href="5b18a305688965e32a5d0385f805d3bc841f511a87ecda83adf8d1da72712871.html">Admin check services by ID</a>
+                                                                                </td>
+                                                                                <td>1</td>
+                                                                                <td>100%</td>
+                                                                                <td>
+                                                                                        <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <div class="progress">
+                                                                                            <div class="progress-bar"
+                                                                                                 role="progressbar"
+                                                                                                 style="width: 100%; background-color: #30cb23"
+                                                                                                 aria-valuenow="1"
+                                                                                                 title="100% success"
+                                                                                                 aria-valuemin="0"
+                                                                                                 aria-valuemax="100">
+                                                                                            </div>
+                                                                                    </div>
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>
+                                                                                        <a href="5e6bc904eabe116ff2f8b66af827265da38515befc2f0e5d4eb3f1c15276f753.html">Admin checks all incoming orders</a>
+                                                                                </td>
+                                                                                <td>1</td>
+                                                                                <td>100%</td>
+                                                                                <td>
+                                                                                        <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <div class="progress">
+                                                                                            <div class="progress-bar"
+                                                                                                 role="progressbar"
+                                                                                                 style="width: 100%; background-color: #30cb23"
+                                                                                                 aria-valuenow="1"
+                                                                                                 title="100% success"
+                                                                                                 aria-valuemin="0"
+                                                                                                 aria-valuemax="100">
+                                                                                            </div>
+                                                                                    </div>
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>
+                                                                                        <a href="2ee7e160e2acb5a58311a0bd246b1d187bdf2abe92faedbda291ab47147c4d5b.html">Admin checks all order by ID Order</a>
+                                                                                </td>
+                                                                                <td>1</td>
+                                                                                <td>100%</td>
+                                                                                <td>
+                                                                                        <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <div class="progress">
+                                                                                            <div class="progress-bar"
+                                                                                                 role="progressbar"
+                                                                                                 style="width: 100%; background-color: #30cb23"
+                                                                                                 aria-valuenow="1"
+                                                                                                 title="100% success"
+                                                                                                 aria-valuemin="0"
+                                                                                                 aria-valuemax="100">
+                                                                                            </div>
+                                                                                    </div>
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>
+                                                                                        <a href="76f1ffd1c7820914f93981c6638af3d2392ec2733163880c017592490eda45e7.html">Admin checks all order by User</a>
+                                                                                </td>
+                                                                                <td>1</td>
+                                                                                <td>100%</td>
+                                                                                <td>
+                                                                                        <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <div class="progress">
+                                                                                            <div class="progress-bar"
+                                                                                                 role="progressbar"
+                                                                                                 style="width: 100%; background-color: #30cb23"
+                                                                                                 aria-valuenow="1"
+                                                                                                 title="100% success"
+                                                                                                 aria-valuemin="0"
+                                                                                                 aria-valuemax="100">
+                                                                                            </div>
+                                                                                    </div>
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>
+                                                                                        <a href="37f72c788ca1caa56181598a385fd2c90a757a52e6a2126ccfa4a54284baf6e1.html">Admin Edit Services Image</a>
+                                                                                </td>
+                                                                                <td>1</td>
+                                                                                <td>100%</td>
+                                                                                <td>
+                                                                                        <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <div class="progress">
+                                                                                            <div class="progress-bar"
+                                                                                                 role="progressbar"
+                                                                                                 style="width: 100%; background-color: #30cb23"
+                                                                                                 aria-valuenow="1"
+                                                                                                 title="100% success"
+                                                                                                 aria-valuemin="0"
+                                                                                                 aria-valuemax="100">
+                                                                                            </div>
+                                                                                    </div>
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>
+                                                                                        <a href="aab77081d6a1fa999a374b24bbb7183e750ad0e1425e963f266ca4d4b7087d42.html">Data Service Update</a>
+                                                                                </td>
+                                                                                <td>1</td>
+                                                                                <td>100%</td>
+                                                                                <td>
+                                                                                        <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <div class="progress">
+                                                                                            <div class="progress-bar"
+                                                                                                 role="progressbar"
+                                                                                                 style="width: 100%; background-color: #30cb23"
+                                                                                                 aria-valuenow="1"
+                                                                                                 title="100% success"
+                                                                                                 aria-valuemin="0"
+                                                                                                 aria-valuemax="100">
+                                                                                            </div>
+                                                                                    </div>
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>
+                                                                                        <a href="1307a3b8b52f7ec97d805a8c4535dcd9b05609b2a996eaa250f0b4e24aff691d.html">Get User</a>
+                                                                                </td>
+                                                                                <td>1</td>
+                                                                                <td>0%</td>
+                                                                                <td>
+                                                                                        <a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <div class="progress">
+                                                                                            <div class="progress-bar"
+                                                                                                 role="progressbar"
+                                                                                                 style="width: 100%; background-color: #f8001f"
+                                                                                                 aria-valuenow="1"
+                                                                                                 title="100% failure"
+                                                                                                 aria-valuemin="0"
+                                                                                                 aria-valuemax="100">
+                                                                                            </div>
+                                                                                    </div>
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>
+                                                                                        <a href="5aeb8ca45f3a37e134ed23df93676d33c6952b4723014e95200bbf3f0b5010f0.html">Review can deleted by Admin</a>
+                                                                                </td>
+                                                                                <td>1</td>
+                                                                                <td>100%</td>
+                                                                                <td>
+                                                                                        <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <div class="progress">
+                                                                                            <div class="progress-bar"
+                                                                                                 role="progressbar"
+                                                                                                 style="width: 100%; background-color: #30cb23"
+                                                                                                 aria-valuenow="1"
+                                                                                                 title="100% success"
+                                                                                                 aria-valuemin="0"
+                                                                                                 aria-valuemax="100">
+                                                                                            </div>
+                                                                                    </div>
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>
+                                                                                        <a href="9d720ac0f4e6f9499abaffab79accc998ef391fb6910242f103c2ffb0a31926d.html">User Add new Order</a>
+                                                                                </td>
+                                                                                <td>1</td>
+                                                                                <td>100%</td>
+                                                                                <td>
+                                                                                        <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <div class="progress">
+                                                                                            <div class="progress-bar"
+                                                                                                 role="progressbar"
+                                                                                                 style="width: 100%; background-color: #30cb23"
+                                                                                                 aria-valuenow="1"
+                                                                                                 title="100% success"
+                                                                                                 aria-valuemin="0"
+                                                                                                 aria-valuemax="100">
+                                                                                            </div>
+                                                                                    </div>
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>
+                                                                                        <a href="d3a6e0cd215fe0c15bfabbff84f1e0cb178b105be15a02f8c693aec3a35315eb.html">User can Update the Review</a>
+                                                                                </td>
+                                                                                <td>1</td>
+                                                                                <td>100%</td>
+                                                                                <td>
+                                                                                        <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <div class="progress">
+                                                                                            <div class="progress-bar"
+                                                                                                 role="progressbar"
+                                                                                                 style="width: 100%; background-color: #30cb23"
+                                                                                                 aria-valuenow="1"
+                                                                                                 title="100% success"
+                                                                                                 aria-valuemin="0"
+                                                                                                 aria-valuemax="100">
+                                                                                            </div>
+                                                                                    </div>
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>
+                                                                                        <a href="92c79ba139f003f3a8caa6c0926db1ea2ee301db8d0d27861230545b48c3fb08.html">User Login</a>
+                                                                                </td>
+                                                                                <td>1</td>
+                                                                                <td>100%</td>
+                                                                                <td>
+                                                                                        <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <div class="progress">
+                                                                                            <div class="progress-bar"
+                                                                                                 role="progressbar"
+                                                                                                 style="width: 100%; background-color: #30cb23"
+                                                                                                 aria-valuenow="1"
+                                                                                                 title="100% success"
+                                                                                                 aria-valuemin="0"
+                                                                                                 aria-valuemax="100">
+                                                                                            </div>
+                                                                                    </div>
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>
+                                                                                        <a href="f77bdbf841c311912f9412ec321d44f6be92c02a86793d640839bf375bb23c32.html">User Register</a>
+                                                                                </td>
+                                                                                <td>1</td>
+                                                                                <td>0%</td>
+                                                                                <td>
+                                                                                        <a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <div class="progress">
+                                                                                            <div class="progress-bar"
+                                                                                                 role="progressbar"
+                                                                                                 style="width: 100%; background-color: #f8001f"
+                                                                                                 aria-valuenow="1"
+                                                                                                 title="100% failure"
+                                                                                                 aria-valuemin="0"
+                                                                                                 aria-valuemax="100">
+                                                                                            </div>
+                                                                                    </div>
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>
+                                                                                        <a href="6d68670ee3612a1144afcab65dff85822d52dd90b9e95621e50cb8d48ed5715d.html">User try to check payment status</a>
+                                                                                </td>
+                                                                                <td>1</td>
+                                                                                <td>100%</td>
+                                                                                <td>
+                                                                                        <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <div class="progress">
+                                                                                            <div class="progress-bar"
+                                                                                                 role="progressbar"
+                                                                                                 style="width: 100%; background-color: #30cb23"
+                                                                                                 aria-valuenow="1"
+                                                                                                 title="100% success"
+                                                                                                 aria-valuemin="0"
+                                                                                                 aria-valuemax="100">
+                                                                                            </div>
+                                                                                    </div>
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>
+                                                                                        <a href="a25f1e17aae0dd53d5ef3b2d334e4b7b5e25266937bb72d6173a1ef20ee54e14.html">User want to give a review</a>
+                                                                                </td>
+                                                                                <td>1</td>
+                                                                                <td>100%</td>
+                                                                                <td>
+                                                                                        <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <div class="progress">
+                                                                                            <div class="progress-bar"
+                                                                                                 role="progressbar"
+                                                                                                 style="width: 100%; background-color: #30cb23"
+                                                                                                 aria-valuenow="1"
+                                                                                                 title="100% success"
+                                                                                                 aria-valuemin="0"
+                                                                                                 aria-valuemax="100">
+                                                                                            </div>
+                                                                                    </div>
+                                                                                </td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="row">
+                                                        <div class="col-sm-6">
+                                                            <h3>Test Failure Overview</h3>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-sm-6">
+                                                            <h4>Most Frequent Failures</h4>
+                                                            <table class="table">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td class="failure-color top-list-title">
+                                                                            <a href="a0ace456df350117335ad374e8d62c0d8c978db868ea1469e0c5ba32aac965ea.html"><a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> Assertion error</a>
+                                                                        </td>
+                                                                        <td><span
+                                                                                    class="badge failure-badge">2</span>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                        <div class="col-sm-6">
+                                                            <h4>Most Unstable Features</h4>
+                                                            <table class="table">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td class="failure-color top-list-title"><a
+                                                                                    href="3275850e145dbe83d6cddb5076cab9ba97eed966cce48405c1fae41cee9dba00.html">Get User</a>
+                                                                        </td>
+                                                                        <td><span
+                                                                                    class="badge failure-badge">100%</span>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td class="failure-color top-list-title"><a
+                                                                                    href="f77bdbf841c311912f9412ec321d44f6be92c02a86793d640839bf375bb23c32.html">User Register</a>
+                                                                        </td>
+                                                                        <td><span
+                                                                                    class="badge failure-badge">100%</span>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="row">
+                                                        <div class="col-sm-12">
+                                                            <h3>Tags</h3>
+
+                                                                <div class="card">
+                                                                    <div class="card-body">
+                                                                        <div>
+                                                                                <a href="b1b63f8e9328e2261d6294cb63e8426eb31cbabc9d76de5070001748e0f84a3e.html">
+                                                                        <span class="badge"
+                                                                              style="background-color:#1D9918; margin:1em;padding:4px;"><i
+                                                                                    class="fa fa-tag"></i> Add New Order&nbsp;&nbsp;&nbsp;1</span>
+                                                                                </a>
+                                                                                <a href="9fee52e0c8d66e04131c63893ad4ae5246721b69fbbcc2133e9efc66621a9356.html">
+                                                                        <span class="badge"
+                                                                              style="background-color:#1D9918; margin:1em;padding:4px;"><i
+                                                                                    class="fa fa-tag"></i> New Services&nbsp;&nbsp;&nbsp;1</span>
+                                                                                </a>
+                                                                                <a href="9d484aa5491118e615304fc4bef2a75390d2bd62cd0a1a04565194d93e47538f.html">
+                                                                        <span class="badge"
+                                                                              style="background-color:#1D9918; margin:1em;padding:4px;"><i
+                                                                                    class="fa fa-tag"></i> All Services&nbsp;&nbsp;&nbsp;1</span>
+                                                                                </a>
+                                                                                <a href="c0b19a5760d574ec39807c2006bcdb4b8f94fb89bff22c2f63d966a7ee9c2ca7.html">
+                                                                        <span class="badge"
+                                                                              style="background-color:#1D9918; margin:1em;padding:4px;"><i
+                                                                                    class="fa fa-tag"></i> Payment Status&nbsp;&nbsp;&nbsp;1</span>
+                                                                                </a>
+                                                                                <a href="e5e39bd96f3bbb72330e60a02dd32b536c8ae0d1def55f9e1e5ff2f0be4ba12a.html">
+                                                                        <span class="badge"
+                                                                              style="background-color:#1D9918; margin:1em;padding:4px;"><i
+                                                                                    class="fa fa-tag"></i> User Review&nbsp;&nbsp;&nbsp;1</span>
+                                                                                </a>
+                                                                                <a href="7fede6e35029681962aa3116b599c74553158520ec76202cb2f8b46e886dffca.html">
+                                                                        <span class="badge"
+                                                                              style="background-color:#1D9918; margin:1em;padding:4px;"><i
+                                                                                    class="fa fa-tag"></i> New Payment&nbsp;&nbsp;&nbsp;1</span>
+                                                                                </a>
+                                                                                <a href="3b742751b0a6c6525c3a8c83924ca03315f1a114057fa2de4c023840f05046ce.html">
+                                                                        <span class="badge"
+                                                                              style="background-color:#1D9918; margin:1em;padding:4px;"><i
+                                                                                    class="fa fa-tag"></i> Delete Services&nbsp;&nbsp;&nbsp;1</span>
+                                                                                </a>
+                                                                                <a href="83359daf2f4dcbd7bf3893cc12f328d5e61b552fe92db97baa58cdd725b41cf4.html">
+                                                                        <span class="badge"
+                                                                              style="background-color:#1D9918; margin:1em;padding:4px;"><i
+                                                                                    class="fa fa-tag"></i> Delete Review&nbsp;&nbsp;&nbsp;1</span>
+                                                                                </a>
+                                                                                <a href="d2bae68bbc39f66e9172583f5764e09ee583b0cb181e0322f11ece3b37b7d6db.html">
+                                                                        <span class="badge"
+                                                                              style="background-color:#1D9918; margin:1em;padding:4px;"><i
+                                                                                    class="fa fa-tag"></i> All Incoming Orders&nbsp;&nbsp;&nbsp;1</span>
+                                                                                </a>
+                                                                                <a href="e5b99a5e93897b716efc419f8e2f31c0b228f780d97aeeddd81c1c6f1aaf32ee.html">
+                                                                        <span class="badge"
+                                                                              style="background-color:#1D9918; margin:1em;padding:4px;"><i
+                                                                                    class="fa fa-tag"></i> All Payment Method&nbsp;&nbsp;&nbsp;1</span>
+                                                                                </a>
+                                                                                <a href="84fcb0e4f040dc11db6ad4df145712336756d823b712fb28c0e9549a6a555db4.html">
+                                                                        <span class="badge"
+                                                                              style="background-color:#1D9918; margin:1em;padding:4px;"><i
+                                                                                    class="fa fa-tag"></i> All Reviews&nbsp;&nbsp;&nbsp;1</span>
+                                                                                </a>
+                                                                                <a href="435e4c70db77f84574ee859c9d2794f34cbec826441d79a02ef30d4c8c71ae46.html">
+                                                                        <span class="badge"
+                                                                              style="background-color:#1D9918; margin:1em;padding:4px;"><i
+                                                                                    class="fa fa-tag"></i> OrderbyID&nbsp;&nbsp;&nbsp;1</span>
+                                                                                </a>
+                                                                                <a href="aac8c9a546a10c8d73cebf74547eb7b1a54f172360dc3a840c2efa447599db69.html">
+                                                                        <span class="badge"
+                                                                              style="background-color:#1D9918; margin:1em;padding:4px;"><i
+                                                                                    class="fa fa-tag"></i> Orderby User&nbsp;&nbsp;&nbsp;1</span>
+                                                                                </a>
+                                                                                <a href="c1a7f4a02c92c91ff7e555e257c0f5a62202cf3d223e52e5874b2946c1a3b237.html">
+                                                                        <span class="badge"
+                                                                              style="background-color:#f8001f; margin:1em;padding:4px;"><i
+                                                                                    class="fa fa-tag"></i> Sign In&nbsp;&nbsp;&nbsp;2</span>
+                                                                                </a>
+                                                                                <a href="6b96c82535ef8ee80b8245f1a964c74a430f8fea4505c97728cd92028dfb1b48.html">
+                                                                        <span class="badge"
+                                                                              style="background-color:#1D9918; margin:1em;padding:4px;"><i
+                                                                                    class="fa fa-tag"></i> All User List&nbsp;&nbsp;&nbsp;1</span>
+                                                                                </a>
+                                                                                <a href="ba3d42a914cf53e225392eca2cb6bd3818439028684b4e21bfdc6ac31caaac60.html">
+                                                                        <span class="badge"
+                                                                              style="background-color:#f8001f; margin:1em;padding:4px;"><i
+                                                                                    class="fa fa-tag"></i> Sign Up&nbsp;&nbsp;&nbsp;1</span>
+                                                                                </a>
+                                                                                <a href="0886f00c61fc1ec306113acd33b81495110511a75d4c98a4db6a72d806e6a0cc.html">
+                                                                        <span class="badge"
+                                                                              style="background-color:#1D9918; margin:1em;padding:4px;"><i
+                                                                                    class="fa fa-tag"></i> Service Detail&nbsp;&nbsp;&nbsp;1</span>
+                                                                                </a>
+                                                                                <a href="68cdfbe6ec157942be917190a3a7e68d7096a1d59f936f13068af93d07fa2937.html">
+                                                                        <span class="badge"
+                                                                              style="background-color:#1D9918; margin:1em;padding:4px;"><i
+                                                                                    class="fa fa-tag"></i> Update Data Service&nbsp;&nbsp;&nbsp;1</span>
+                                                                                </a>
+                                                                                <a href="df2f9f3417fded020b945139ce4502e3150595a4390e4eb23f887dde780cf246.html">
+                                                                        <span class="badge"
+                                                                              style="background-color:#1D9918; margin:1em;padding:4px;"><i
+                                                                                    class="fa fa-tag"></i> Edit Image Services&nbsp;&nbsp;&nbsp;1</span>
+                                                                                </a>
+                                                                                <a href="be2336c913cc903cb32a1cfce3dde498bfab39133a8e4cf4547d68217887a1ba.html">
+                                                                        <span class="badge"
+                                                                              style="background-color:#1D9918; margin:1em;padding:4px;"><i
+                                                                                    class="fa fa-tag"></i> Update User Review&nbsp;&nbsp;&nbsp;1</span>
+                                                                                </a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                        </div>
+                                                    </div>
                                             </div>
                                         </div>
                                         <div id="tests" class="tab-pane fade">
@@ -342,7 +1037,315 @@
                                                     <div class="col-sm-12">
                                                         <h3><i class="fas fa-cogs"></i> Automated Tests</h3>
 
-                                                            No automated tests were executed
+                                                            <table class="scenario-result-table table"
+                                                                   id="scenario-results">
+                                                                <thead>
+                                                                <tr>
+                                                                    <th>feature</th>
+                                                                    <th class="test-name-column">Scenario</th>
+                                                                    <th>Steps</th>
+                                                                    <th>Started</th>
+                                                                    <th>Duration</th>
+                                                                    <th>Result</th>
+                                                                </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr class="scenario-result SUCCESS">
+                                                                        <td>
+                                                                                <a href="9d720ac0f4e6f9499abaffab79accc998ef391fb6910242f103c2ffb0a31926d.html">User Add new Order</a>
+                                                                        </td>
+                                                                        <td>
+                                                                            <a href="1f2a9dcddf3d9eca4fcf45a83197f34a75b9feaadd41467f5154b2cb4c8915c3.html">as a new user, I want to Order new services</a>
+                                                                        </td>
+                                                                        <td>4</td>
+                                                                        <td>21:47:58</td>
+                                                                        <td>5s 730ms</td>
+                                                                        <td><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
+                                                                                    style="display:none">SUCCESS</span>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr class="scenario-result SUCCESS">
+                                                                        <td>
+                                                                                <a href="e05f36ccd7c148f92aa592d51a285c069c4f8b85b7ccf2e49729dae6ba2fc798.html">Admin Add New Services</a>
+                                                                        </td>
+                                                                        <td>
+                                                                            <a href="dbcf00a7d18aad3f77d7f1f7714e22443b68c7e38bb313618558134b98bca021.html">as an Admin, I can add a new services on my menu service list</a>
+                                                                        </td>
+                                                                        <td>2</td>
+                                                                        <td>04:30:19</td>
+                                                                        <td>5s 122ms</td>
+                                                                        <td><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
+                                                                                    style="display:none">SUCCESS</span>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr class="scenario-result SUCCESS">
+                                                                        <td>
+                                                                                <a href="beee3a654e5377b1ba217da1d103a574950b3741b82a17099d1a8d208f0c07d8.html">Admin check all services</a>
+                                                                        </td>
+                                                                        <td>
+                                                                            <a href="79a9fdf11f93e518f063e1b6bbbabe11c6b613e0523f85c3b41b56e97403fdfa.html">as an Admin, I can all services on my menu service list</a>
+                                                                        </td>
+                                                                        <td>2</td>
+                                                                        <td>03:48:11</td>
+                                                                        <td>4s 490ms</td>
+                                                                        <td><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
+                                                                                    style="display:none">SUCCESS</span>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr class="scenario-result SUCCESS">
+                                                                        <td>
+                                                                                <a href="6d68670ee3612a1144afcab65dff85822d52dd90b9e95621e50cb8d48ed5715d.html">User try to check payment status</a>
+                                                                        </td>
+                                                                        <td>
+                                                                            <a href="3b70bac26b84f31ae5682bdc4aaaa8cec25b183b2836a8954540e8e72556e9fc.html">as an User, I want to check my payment status</a>
+                                                                        </td>
+                                                                        <td>2</td>
+                                                                        <td>01:43:22</td>
+                                                                        <td>4s 306ms</td>
+                                                                        <td><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
+                                                                                    style="display:none">SUCCESS</span>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr class="scenario-result SUCCESS">
+                                                                        <td>
+                                                                                <a href="a25f1e17aae0dd53d5ef3b2d334e4b7b5e25266937bb72d6173a1ef20ee54e14.html">User want to give a review</a>
+                                                                        </td>
+                                                                        <td>
+                                                                            <a href="7c1804ad7e607320fe7fbabfa3935b83a32c82843ea7298d300d56d232f5369d.html">as a user I want to give stars and reviews on my order</a>
+                                                                        </td>
+                                                                        <td>2</td>
+                                                                        <td>02:00:13</td>
+                                                                        <td>4s 126ms</td>
+                                                                        <td><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
+                                                                                    style="display:none">SUCCESS</span>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr class="scenario-result SUCCESS">
+                                                                        <td>
+                                                                                <a href="1bd44476e7264fc75b24697b4f61de3a706597e15a36c8a63997997f15569f15.html">Admin Add Payment</a>
+                                                                        </td>
+                                                                        <td>
+                                                                            <a href="eadc399a571b46da2dd8277678326430455654acd8ded6e44de55a03beacf5aa.html">as an Admin, I want to add new payment method</a>
+                                                                        </td>
+                                                                        <td>2</td>
+                                                                        <td>14:54:47</td>
+                                                                        <td>9s 351ms</td>
+                                                                        <td><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
+                                                                                    style="display:none">SUCCESS</span>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr class="scenario-result SUCCESS">
+                                                                        <td>
+                                                                                <a href="cc9fecbbe0e5859f50703387ce926409bffeb3cdfa623f7cbbedb8f9349dca18.html">Admin can delete Services</a>
+                                                                        </td>
+                                                                        <td>
+                                                                            <a href="15ef0caa8f2e7605de1c9257a20c8f0ea9b4e18ee74754edf713501142ed7f37.html">as an Admin, want to delete data services</a>
+                                                                        </td>
+                                                                        <td>2</td>
+                                                                        <td>01:04:23</td>
+                                                                        <td>5s 048ms</td>
+                                                                        <td><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
+                                                                                    style="display:none">SUCCESS</span>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr class="scenario-result SUCCESS">
+                                                                        <td>
+                                                                                <a href="5aeb8ca45f3a37e134ed23df93676d33c6952b4723014e95200bbf3f0b5010f0.html">Review can deleted by Admin</a>
+                                                                        </td>
+                                                                        <td>
+                                                                            <a href="2fe8750be63c4c895673662a6134eb48861821ff83e70303ad252ac1b6db778e.html">as an Admin, I have the authority to delete reviews</a>
+                                                                        </td>
+                                                                        <td>2</td>
+                                                                        <td>02:42:45</td>
+                                                                        <td>4s 459ms</td>
+                                                                        <td><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
+                                                                                    style="display:none">SUCCESS</span>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr class="scenario-result SUCCESS">
+                                                                        <td>
+                                                                                <a href="5e6bc904eabe116ff2f8b66af827265da38515befc2f0e5d4eb3f1c15276f753.html">Admin checks all incoming orders</a>
+                                                                        </td>
+                                                                        <td>
+                                                                            <a href="e468c1d5b806b2c10912a347d69e5519c94421f10a7d681aedfd2987a52f8a56.html">as an Admin, I want to check all incoming orders</a>
+                                                                        </td>
+                                                                        <td>2</td>
+                                                                        <td>21:45:56</td>
+                                                                        <td>4s 829ms</td>
+                                                                        <td><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
+                                                                                    style="display:none">SUCCESS</span>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr class="scenario-result SUCCESS">
+                                                                        <td>
+                                                                                <a href="6b58ca8e3e28b10bca9aab59f0f15d0a2e0039f53ff716370aeba31f80484204.html">Admin check all Payment Method List</a>
+                                                                        </td>
+                                                                        <td>
+                                                                            <a href="c36be16c0fe2e471a9cb8c026c4d3597a25d692f26382969ccf3ea289bcf7fa4.html">as an Admin, I want to check all the Payment Method</a>
+                                                                        </td>
+                                                                        <td>2</td>
+                                                                        <td>01:27:28</td>
+                                                                        <td>4s 842ms</td>
+                                                                        <td><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
+                                                                                    style="display:none">SUCCESS</span>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr class="scenario-result SUCCESS">
+                                                                        <td>
+                                                                                <a href="2a72581cdeb86d8d8feaee97ecaba94992ef815589e8d1bffe62dc39d7917bf1.html">Admin check all Reviews</a>
+                                                                        </td>
+                                                                        <td>
+                                                                            <a href="8b02a6da7dfdbdbed556dcc245701cb1ae13535efc087ab8fc327b66b16e2747.html">as an Admin, I can view all reviews</a>
+                                                                        </td>
+                                                                        <td>2</td>
+                                                                        <td>03:22:24</td>
+                                                                        <td>7s 643ms</td>
+                                                                        <td><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
+                                                                                    style="display:none">SUCCESS</span>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr class="scenario-result SUCCESS">
+                                                                        <td>
+                                                                                <a href="2ee7e160e2acb5a58311a0bd246b1d187bdf2abe92faedbda291ab47147c4d5b.html">Admin checks all order by ID Order</a>
+                                                                        </td>
+                                                                        <td>
+                                                                            <a href="779ccdf853ba259273ca749530400e2888514bb41097813d71e6630c44a3b7ae.html">as an Admin, I can check the incoming order by Order ID</a>
+                                                                        </td>
+                                                                        <td>2</td>
+                                                                        <td>01:20:17</td>
+                                                                        <td>4s 533ms</td>
+                                                                        <td><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
+                                                                                    style="display:none">SUCCESS</span>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr class="scenario-result SUCCESS">
+                                                                        <td>
+                                                                                <a href="76f1ffd1c7820914f93981c6638af3d2392ec2733163880c017592490eda45e7.html">Admin checks all order by User</a>
+                                                                        </td>
+                                                                        <td>
+                                                                            <a href="f569046a1d8e3a7731a11f7af082589e20d407332d745e75321ff6a4fc15a8cb.html">as an Admin, I can check the incoming order by User ID</a>
+                                                                        </td>
+                                                                        <td>2</td>
+                                                                        <td>00:41:47</td>
+                                                                        <td>5s 379ms</td>
+                                                                        <td><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
+                                                                                    style="display:none">SUCCESS</span>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr class="scenario-result FAILURE">
+                                                                        <td>
+                                                                                <a href="1307a3b8b52f7ec97d805a8c4535dcd9b05609b2a996eaa250f0b4e24aff691d.html">Get User</a>
+                                                                        </td>
+                                                                        <td>
+                                                                            <a href="a28d6cec8412b0e0461fc1d4f0fc7898cfbb01ba17df80edb060b395ba6a1cc0.html">I can check user data</a>
+                                                                        </td>
+                                                                        <td>2</td>
+                                                                        <td>14:29:15</td>
+                                                                        <td>10s 321ms</td>
+                                                                        <td><a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> <span
+                                                                                    style="display:none">FAILURE</span>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr class="scenario-result SUCCESS">
+                                                                        <td>
+                                                                                <a href="3275850e145dbe83d6cddb5076cab9ba97eed966cce48405c1fae41cee9dba00.html">Admin Check All User</a>
+                                                                        </td>
+                                                                        <td>
+                                                                            <a href="e3d18aeb653b8d035fec9bb79c466a42768c3463919ea1049ea3431ff69fdb64.html">as an Admin, I can view all User data</a>
+                                                                        </td>
+                                                                        <td>2</td>
+                                                                        <td>00:35:09</td>
+                                                                        <td>4s 740ms</td>
+                                                                        <td><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
+                                                                                    style="display:none">SUCCESS</span>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr class="scenario-result FAILURE">
+                                                                        <td>
+                                                                                <a href="f77bdbf841c311912f9412ec321d44f6be92c02a86793d640839bf375bb23c32.html">User Register</a>
+                                                                        </td>
+                                                                        <td>
+                                                                            <a href="2839049f26043059bdd18522ba19c45005cd116ae6bc13a99b4de43f47b04d06.html">as a new user, I do to register to the page</a>
+                                                                        </td>
+                                                                        <td>2</td>
+                                                                        <td>14:25:37</td>
+                                                                        <td>12s 794ms</td>
+                                                                        <td><a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> <span
+                                                                                    style="display:none">FAILURE</span>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr class="scenario-result SUCCESS">
+                                                                        <td>
+                                                                                <a href="5b18a305688965e32a5d0385f805d3bc841f511a87ecda83adf8d1da72712871.html">Admin check services by ID</a>
+                                                                        </td>
+                                                                        <td>
+                                                                            <a href="d6fdb8bdc74d722da12f172f1bccfd1becc9a6f30c3e420c64b3db40ef4052e9.html">as an Admin, I want to check services by ID</a>
+                                                                        </td>
+                                                                        <td>2</td>
+                                                                        <td>04:10:26</td>
+                                                                        <td>5s 360ms</td>
+                                                                        <td><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
+                                                                                    style="display:none">SUCCESS</span>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr class="scenario-result SUCCESS">
+                                                                        <td>
+                                                                                <a href="92c79ba139f003f3a8caa6c0926db1ea2ee301db8d0d27861230545b48c3fb08.html">User Login</a>
+                                                                        </td>
+                                                                        <td>
+                                                                            <a href="8cef0de0de97bce68185b2f329659f60a9da7b6d411b259c61e021712a21c738.html">as a user, I can do login to page</a>
+                                                                        </td>
+                                                                        <td>2</td>
+                                                                        <td>14:29:26</td>
+                                                                        <td>2s 401ms</td>
+                                                                        <td><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
+                                                                                    style="display:none">SUCCESS</span>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr class="scenario-result SUCCESS">
+                                                                        <td>
+                                                                                <a href="aab77081d6a1fa999a374b24bbb7183e750ad0e1425e963f266ca4d4b7087d42.html">Data Service Update</a>
+                                                                        </td>
+                                                                        <td>
+                                                                            <a href="3c7c5b89c8c9d7569a86fab8331dd37995d7c86f10254ee834077f292a5ec1f7.html">as an Admin I want to update the data service</a>
+                                                                        </td>
+                                                                        <td>3</td>
+                                                                        <td>20:41:51</td>
+                                                                        <td>5s 367ms</td>
+                                                                        <td><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
+                                                                                    style="display:none">SUCCESS</span>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr class="scenario-result SUCCESS">
+                                                                        <td>
+                                                                                <a href="37f72c788ca1caa56181598a385fd2c90a757a52e6a2126ccfa4a54284baf6e1.html">Admin Edit Services Image</a>
+                                                                        </td>
+                                                                        <td>
+                                                                            <a href="3f2476f2697d1f7f9bfa00971ea2dfd59a53f6bd785233a0ff3bede6b3c21bfd.html">as an Admin, I want to update image on the services data</a>
+                                                                        </td>
+                                                                        <td>2</td>
+                                                                        <td>21:31:12</td>
+                                                                        <td>4s 324ms</td>
+                                                                        <td><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
+                                                                                    style="display:none">SUCCESS</span>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr class="scenario-result SUCCESS">
+                                                                        <td>
+                                                                                <a href="d3a6e0cd215fe0c15bfabbff84f1e0cb178b105be15a02f8c693aec3a35315eb.html">User can Update the Review</a>
+                                                                        </td>
+                                                                        <td>
+                                                                            <a href="4051f251fc6a0c98783d66e47df6fe7318ef14ba6030f875814f53f03b00ca35.html">as a user I want to update my Review</a>
+                                                                        </td>
+                                                                        <td>2</td>
+                                                                        <td>02:18:19</td>
+                                                                        <td>4s 799ms</td>
+                                                                        <td><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
+                                                                                    style="display:none">SUCCESS</span>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
 
                                                     </div>
                                                 </div>

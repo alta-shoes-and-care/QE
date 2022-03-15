@@ -16,13 +16,7 @@ public class Services {
 
     @Step
    public void form(String tittle, String description, String price, String upload)
-//            throws IOException
     {
-//          {String image = "E:/AlterraAcademy/capstone-project/Men-Shoes/png";
-//            byte[] fileContent = FileUtils.readFileToByteArray(new File(upload));
-
-//        RestAssured.baseURI = "Enter Base uri";
-
         Response res = given()
 
                 .header("Accept", "application/json")

@@ -2,9 +2,11 @@ package starter.stepdefinition;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
-import net.serenitybdd.rest.SerenityRest;
 import net.thucydides.core.annotations.Steps;
 import starter.step.Register;
+
+import static net.serenitybdd.screenplay.rest.questions.ResponseConsequence.seeThatResponse;
+import static org.hamcrest.Matchers.equalTo;
 
 
 public class StepDefReg {
@@ -20,7 +22,15 @@ public class StepDefReg {
 
     @Then("I can do register")
     public void iCanDoRegister() {
-        SerenityRest.then()
-                .statusCode(201);
+        seeThatResponse("sukses menambahkan user baru",
+                response -> {
+                    response.statusCode(201)
+                            .body("name", equalTo("Adhit"))
+                            .body("email", equalTo("adhit99@cc.co"))
+                            .body("password", equalTo("Axx999"))
+                            .body("is_admin", equalTo("false"));
+
+                }
+        );
     }
 }

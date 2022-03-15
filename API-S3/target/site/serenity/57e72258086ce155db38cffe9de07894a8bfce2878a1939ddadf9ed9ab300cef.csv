@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Get User","I can check user data","FAILURE","2022-03-13T14:29:15.697333+07:00[Asia/Jakarta]","0.0","10.32"
+"User Login","as a user, I can do login to page","SUCCESS","2022-03-13T14:29:26.1291768+07:00[Asia/Jakarta]","0.0","2.4"

@@ -1,5 +1,9 @@
+starter\stepdefinition\StepDefUpdate.class
+starter\step\SignIn.class
+starter\step\Services.class
+starter\stepdefinition\StepDefServices.class
 starter\CucumberTestSuite.class
-step\Register.class
-starter\CucumberWithSerenity.class
-stepdefinition\RegisterS3.class
-stepdefinition\RegS3.class
+starter\step\Update.class
+starter\stepdefinition\StepDefSignIn.class
+starter\step\Register.class
+starter\stepdefinition\StepDefReg.class

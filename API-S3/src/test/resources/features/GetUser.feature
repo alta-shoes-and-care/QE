@@ -1,6 +1,6 @@
-Feature: Get User
+Feature: Admin Check All User
 
-  @SignIn
-  Scenario: I can check user data
-    When I input my email is "QE---2@xx.com" and password is "QExx(*&"
-    Then I can login to page
+  @AllUserList
+  Scenario: as an Admin, I can view all User data
+    When I want to check "UserList"
+    Then the API give response and i view all data User

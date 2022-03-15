@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: Get User
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 10.866 s <<< FAILURE! - in Get User
+Get User.I can check user data  Time elapsed: 10.866 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <500>.
+
+
