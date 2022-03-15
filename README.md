@@ -29,7 +29,7 @@ In the testing process using manual and automation testing with a behavior and u
 **API Automation Testing Screenshot:**
 
   
-  <img width="964" alt="Update Services Image" src="https://github.com/alta-shoes-and-care/QE/blob/main/SS/API%20automation/UpdateServiceImage_(%2B).png">
+  <img width="250" alt="Update Services Image" src="https://github.com/alta-shoes-and-care/QE/blob/main/SS/API%20automation/UpdateServiceImage_(%2B).png">
 
 
 
