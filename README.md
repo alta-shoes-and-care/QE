@@ -28,8 +28,18 @@ In the testing process using manual and automation testing with a behavior and u
 
 **API Automation Testing Screenshot:**
 
-  
+# **Update Services Image**  
   <img width="250" alt="Update Services Image" src="https://github.com/alta-shoes-and-care/QE/blob/main/SS/API%20automation/UpdateServiceImage_(%2B).png">
+
+# **Add New Payment**  
+  <img width="250" alt="Add New Payment" src="https://github.com/alta-shoes-and-care/QE/blob/main/SS/API%20automation/AddNewPayment_(%2B).png">  
+  
+# **Add New Review**  
+  <img width="250" alt="Add New Review" src="https://github.com/alta-shoes-and-care/QE/blob/main/SS/API%20automation/CreateReview_(%2B).png">  
+  
+# **Get All Orders**  
+  <img width="250" alt="Get All Orders" src="https://github.com/alta-shoes-and-care/QE/blob/main/SS/API%20automation/GetAllOrder_(%2B).png">  
+  
 
 
 
