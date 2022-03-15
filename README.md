@@ -27,7 +27,7 @@ In the testing process using manual and automation testing with a behavior and u
 - 
 
 **API Automation Testing Screenshot:**
-[Screen Capture](https://github.com/alta-shoes-and-care/QE/tree/main/SS/API%20automation)
+- [Screen Capture](https://github.com/alta-shoes-and-care/QE/tree/main/SS/API%20automation)
 
 
 
