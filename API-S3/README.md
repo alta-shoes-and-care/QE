@@ -6,17 +6,36 @@ With the main need to solve problems in terms of making transactions, payments a
 In the testing process using manual and automation testing with a behavior and user experience approach from a population of users of similar services
 
 
-## Contact
-
-- [Adhitya Dwi P](https://github.com/Adhitya87)
-- [zahra A S ](https://github.com/zahrasept)
-- [Rendy Setiawan](https://github.com/rndsetiawan)
-
 
 
 ## Documentation
 
 [Documentation Test Scenario](https://docs.google.com/spreadsheets/d/1TdS7NosiHK3OgMC5G-ekEdm0XI-P05fisq8BUzZf5Zo/edit#gid=659909770)
+
+
+## API Manual Test Screenshot
+
+- Create New User
+<img
+  src="https://github.com/alta-shoes-and-care/QE/blob/main/SS/Manual%20Testing%20-%20API/1.%20(%2B)%20Create%20New%20User.png"
+  alt="Alt text"
+  title="Create New User"
+  style="display: inline-block; margin: 0 auto; max-width: 50px">
+  
+- Login as Admin
+<img
+  src="https://github.com/alta-shoes-and-care/QE/blob/main/SS/Manual%20Testing%20-%20API/21.%20(%2B)%20Login%20(admin).png"
+  alt="Alt text"
+  title="Login as Adminr"
+  style="display: inline-block; margin: 0 auto; max-width: 50px">
+  
+- Login as User
+<img
+  src="https://github.com/alta-shoes-and-care/QE/blob/main/SS/Manual%20Testing%20-%20API/31.%20(%2B)%20Login%20(user).png"
+  alt="Alt text"
+  title="Login as User"
+  style="display: inline-block; margin: 0 auto; max-width: 50px">
+
 
 
 ## API Automation Screenshot
@@ -86,3 +105,13 @@ In the testing process using manual and automation testing with a behavior and u
 **Collaboration:**
 - [Trello (Work Management Tool)](https://trello.com/)
 - [GitHub (Version Control System Platform)](https://github.com/)
+
+
+
+## Contact
+
+- [Adhitya Dwi P](https://github.com/Adhitya87)
+- [zahra A S ](https://github.com/zahrasept)
+- [Rendy Setiawan](https://github.com/rndsetiawan)
+
+
