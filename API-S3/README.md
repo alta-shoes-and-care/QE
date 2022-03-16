@@ -21,6 +21,11 @@ In the testing process using manual and automation testing with a behavior and u
 
 ## API Automation Screenshot
 
+<img
+  src="https://github.com/alta-shoes-and-care/QE/blob/main/SS/API%20automation/AddNewPayment_(%2B).png"
+  alt="Alt text"
+  title="Add New Payment"
+  style="display: inline-block; margin: 0 auto; max-width: 250px">
 ![Update Services Image ](https://drive.google.com/file/d/1SGePo3bcJI42sbwQT7-Aly8RJc3L3NXt/view?usp=sharing)
 ![Update Data Services ](https://drive.google.com/file/d/1SGePo3bcJI42sbwQT7-Aly8RJc3L3NXt/view?usp=sharing)
 
