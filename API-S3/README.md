@@ -67,5 +67,22 @@ In the testing process using manual and automation testing with a behavior and u
   title="Invalid URL"
   style="display: inline-block; margin: 0 auto; max-width: 50px">
   
-  
 
+## Tech Stack  
+  
+- [Google Chrome (WEB Browser)](https://www.google.com/chrome/)
+- [Postman](https://www.postman.com/)
+
+**Testing Tools for automation:** 
+- [IntelliJ IDEA](https://www.jetbrains.com/idea/)
+- [Google Chrome (WEB Browser)](https://www.google.com/chrome/)
+
+**Framework for automation:**
+- [Serenity BDD](https://serenity-bdd.info/)
+
+**Documentation Tools:** 
+- [Google spreadsheet](https://www.google.com/sheets/about/)
+
+**Collaboration:**
+- [Trello (Work Management Tool)](https://trello.com/)
+- [GitHub (Version Control System Platform)](https://github.com/)
