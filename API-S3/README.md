@@ -16,6 +16,7 @@ In the testing process using manual and automation testing with a behavior and u
 ## API Manual Test Screenshot
 
 - Create New User
+
   <img
   src="https://github.com/alta-shoes-and-care/QE/blob/main/SS/Manual%20Testing%20-%20API/1.%20(%2B)%20Create%20New%20User.png"
   alt="Alt text"
@@ -23,13 +24,15 @@ In the testing process using manual and automation testing with a behavior and u
   style="display: inline-block; margin: 0 auto; max-width: 150px">
   
 - Login as Admin
+
   <img
   src="https://github.com/alta-shoes-and-care/QE/blob/main/SS/Manual%20Testing%20-%20API/21.%20(%2B)%20Login%20(admin).png"
   alt="Alt text"
-  title="Login as Adminr"
+  title="Login as Admin"
   style="display: inline-block; margin: 0 auto; max-width: 150px">
   
 - Login as User
+
   <img
   src="https://github.com/alta-shoes-and-care/QE/blob/main/SS/Manual%20Testing%20-%20API/31.%20(%2B)%20Login%20(user).png"
   alt="Alt text"
@@ -79,12 +82,29 @@ In the testing process using manual and automation testing with a behavior and u
   title="Valid URL"
   style="display: inline-block; margin: 0 auto; max-width: 50px">
   
-  - Valid URL (negative test)
+- Invalid URL (negative test)
 <img
   src="https://github.com/alta-shoes-and-care/QE/blob/main/SS/Manual%20Testing%20-%20Web%20UI/2-Invalid_URL.png"
   alt="Alt text"
   title="Invalid URL"
   style="display: inline-block; margin: 0 auto; max-width: 50px">
+  
+- User Sign Up (Positive test)
+<img
+  src="https://github.com/alta-shoes-and-care/QE/blob/main/SS/Manual%20Testing%20-%20Web%20UI/3-SignUp_(%2B).png"
+  alt="Alt text"
+  title="Invalid URL"
+  style="display: inline-block; margin: 0 auto; max-width: 50px">
+  
+- User Sign Up with existing email (Negative test)
+<img
+  src="https://github.com/alta-shoes-and-care/QE/blob/main/SS/Manual%20Testing%20-%20Web%20UI/4-SignUp_Use%20email%20already%20registered.pngg"
+  alt="Alt text"
+  title="Invalid URL"
+  style="display: inline-block; margin: 0 auto; max-width: 50px">
+
+
+
   
 
 ## Tech Stack  
