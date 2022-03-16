@@ -16,24 +16,21 @@ In the testing process using manual and automation testing with a behavior and u
 ## API Manual Test Screenshot
 
 - Create New User
-
-<img
+  <img
   src="https://github.com/alta-shoes-and-care/QE/blob/main/SS/Manual%20Testing%20-%20API/1.%20(%2B)%20Create%20New%20User.png"
   alt="Alt text"
   title="Create New User"
   style="display: inline-block; margin: 0 auto; max-width: 150px">
   
 - Login as Admin
-
-<img
+  <img
   src="https://github.com/alta-shoes-and-care/QE/blob/main/SS/Manual%20Testing%20-%20API/21.%20(%2B)%20Login%20(admin).png"
   alt="Alt text"
   title="Login as Adminr"
   style="display: inline-block; margin: 0 auto; max-width: 150px">
   
 - Login as User
-
-<img
+  <img
   src="https://github.com/alta-shoes-and-care/QE/blob/main/SS/Manual%20Testing%20-%20API/31.%20(%2B)%20Login%20(user).png"
   alt="Alt text"
   title="Login as User"
