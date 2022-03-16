@@ -35,7 +35,7 @@ In the testing process using manual and automation testing with a behavior and u
   title="All Review"
   style="display: inline-block; margin: 0 auto; max-width: 50px">  
   
-  - Create Review
+- Create Review
 <img
   src="https://github.com/alta-shoes-and-care/QE/blob/main/SS/API%20automation/CreateReview_(%2B).png"
   alt="Alt text"
