@@ -27,8 +27,8 @@ In the testing process using manual and automation testing with a behavior and u
 - 
 
 **API Automation Testing Screenshot:**
-- ![Update Services Image ](https://drive.google.com/file/d/1SGePo3bcJI42sbwQT7-Aly8RJc3L3NXt/view?usp=sharing)
-- ![Update Data Services ](https://drive.google.com/file/d/1SGePo3bcJI42sbwQT7-Aly8RJc3L3NXt/view?usp=sharing)
+- [Screen Capture](https://github.com/alta-shoes-and-care/QE/tree/main/SS/API%20automation)
+
 
 
 ## Tech Stack
