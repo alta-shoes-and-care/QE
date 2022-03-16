@@ -21,11 +21,30 @@ In the testing process using manual and automation testing with a behavior and u
 
 ## API Automation Screenshot
 
+- Add New Payment
 <img
   src="https://github.com/alta-shoes-and-care/QE/blob/main/SS/API%20automation/AddNewPayment_(%2B).png"
   alt="Alt text"
   title="Add New Payment"
   style="display: inline-block; margin: 0 auto; max-width: 50px">
-![Update Services Image ](https://drive.google.com/file/d/1SGePo3bcJI42sbwQT7-Aly8RJc3L3NXt/view?usp=sharing)
-![Update Data Services ](https://drive.google.com/file/d/1SGePo3bcJI42sbwQT7-Aly8RJc3L3NXt/view?usp=sharing)
+  
+- All Review
+<img
+  src="https://github.com/alta-shoes-and-care/QE/blob/main/SS/API%20automation/AllReview_(%2B).png"
+  alt="Alt text"
+  title="All Review"
+  style="display: inline-block; margin: 0 auto; max-width: 50px">  
+  
+  - Create Review
+<img
+  src="https://github.com/alta-shoes-and-care/QE/blob/main/SS/API%20automation/CreateReview_(%2B).pngg"
+  alt="Alt text"
+  title="Create Review"
+  style="display: inline-block; margin: 0 auto; max-width: 50px">  
 
+- Delete Review
+<img
+  src="https://github.com/alta-shoes-and-care/QE/blob/main/SS/API%20automation/DeleteReview_(%2B).png"
+  alt="Alt text"
+  title="Delete Review"
+  style="display: inline-block; margin: 0 auto; max-width: 50px">  
