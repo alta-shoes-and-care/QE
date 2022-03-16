@@ -98,7 +98,7 @@ In the testing process using manual and automation testing with a behavior and u
   
 - User Sign Up with existing email (Negative test)
 <img
-  src="https://github.com/alta-shoes-and-care/QE/blob/main/SS/Manual%20Testing%20-%20Web%20UI/4-SignUp_Use%20email%20already%20registered.pngg"
+  src="https://github.com/alta-shoes-and-care/QE/blob/main/SS/Manual%20Testing%20-%20Web%20UI/4-SignUp_Use%20email%20already%20registered.png"
   alt="Alt text"
   title="Invalid URL"
   style="display: inline-block; margin: 0 auto; max-width: 50px">
