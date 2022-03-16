@@ -48,3 +48,24 @@ In the testing process using manual and automation testing with a behavior and u
   alt="Alt text"
   title="Delete Review"
   style="display: inline-block; margin: 0 auto; max-width: 50px">  
+
+
+
+## WEB Automation Screenshot
+
+- Valid URL (positive test)
+<img
+  src="https://drive.google.com/file/d/1uPcyM7f26PEFeXXrw2UKgINTN9IgcY6b/view?usp=sharing"
+  alt="Alt text"
+  title="Valid URL"
+  style="display: inline-block; margin: 0 auto; max-width: 50px">
+  
+  - Valid URL (negative test)
+<img
+  src="https://drive.google.com/file/d/1aOqaAziEH8u_yCY80qGyKhm1sHyuSe9-/view?usp=sharing"
+  alt="Alt text"
+  title="Invalid URL"
+  style="display: inline-block; margin: 0 auto; max-width: 50px">
+  
+  
+
