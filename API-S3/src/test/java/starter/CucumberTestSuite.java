@@ -11,6 +11,6 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         plugin = {"pretty"},
         features = "src/test/resources/features",
-        tags = "@SignUp"
+        tags = "@UserThemself"
 )
 public class CucumberTestSuite {}

@@ -13,6 +13,7 @@ E:\AlterraAcademy\capstone-project\serenity-rest-starter-master\S3\src\test\java
 E:\AlterraAcademy\capstone-project\serenity-rest-starter-master\S3\src\test\java\starter\stepdefinition\StepDefGetAllUser.java
 E:\AlterraAcademy\capstone-project\serenity-rest-starter-master\S3\src\test\java\starter\step\SignIn.java
 E:\AlterraAcademy\capstone-project\serenity-rest-starter-master\S3\src\test\java\starter\stepdefinition\StepDefAllOrders.java
+E:\AlterraAcademy\capstone-project\serenity-rest-starter-master\S3\src\test\java\starter\stepdefinition\StepDefGetUserbyID.java
 E:\AlterraAcademy\capstone-project\serenity-rest-starter-master\S3\src\test\java\starter\stepdefinition\StepDefPaymentStatus.java
 E:\AlterraAcademy\capstone-project\serenity-rest-starter-master\S3\src\test\java\starter\stepdefinition\StepDefDeleteServices.java
 E:\AlterraAcademy\capstone-project\serenity-rest-starter-master\S3\src\test\java\starter\stepdefinition\StepDefServicesID.java
@@ -27,15 +28,18 @@ E:\AlterraAcademy\capstone-project\serenity-rest-starter-master\S3\src\test\java
 E:\AlterraAcademy\capstone-project\serenity-rest-starter-master\S3\src\test\java\starter\stepdefinition\StepDefUpdate.java
 E:\AlterraAcademy\capstone-project\serenity-rest-starter-master\S3\src\test\java\starter\stepdefinition\StepDefAllServices.java
 E:\AlterraAcademy\capstone-project\serenity-rest-starter-master\S3\src\test\java\starter\stepdefinition\StepDefDeleteReview.java
+E:\AlterraAcademy\capstone-project\serenity-rest-starter-master\S3\src\test\java\starter\step\UserOwnData.java
 E:\AlterraAcademy\capstone-project\serenity-rest-starter-master\S3\src\test\java\starter\step\NewOrder.java
 E:\AlterraAcademy\capstone-project\serenity-rest-starter-master\S3\src\test\java\starter\step\OrderbyID.java
 E:\AlterraAcademy\capstone-project\serenity-rest-starter-master\S3\src\test\java\starter\stepdefinition\StepDefAddPayment.java
 E:\AlterraAcademy\capstone-project\serenity-rest-starter-master\S3\src\test\java\starter\CucumberTestSuite.java
 E:\AlterraAcademy\capstone-project\serenity-rest-starter-master\S3\src\test\java\starter\step\DeleteDataReview.java
 E:\AlterraAcademy\capstone-project\serenity-rest-starter-master\S3\src\test\java\starter\step\DeleteDataServices.java
+E:\AlterraAcademy\capstone-project\serenity-rest-starter-master\S3\src\test\java\starter\stepdefinition\StepDefUserThemselfID.java
 E:\AlterraAcademy\capstone-project\serenity-rest-starter-master\S3\src\test\java\starter\step\Register.java
 E:\AlterraAcademy\capstone-project\serenity-rest-starter-master\S3\src\test\java\starter\stepdefinition\StepDefSignIn.java
 E:\AlterraAcademy\capstone-project\serenity-rest-starter-master\S3\src\test\java\starter\stepdefinition\StepDefServices.java
+E:\AlterraAcademy\capstone-project\serenity-rest-starter-master\S3\src\test\java\starter\step\UserbyID.java
 E:\AlterraAcademy\capstone-project\serenity-rest-starter-master\S3\src\test\java\starter\stepdefinition\StepDefAllPaymentMethod.java
 E:\AlterraAcademy\capstone-project\serenity-rest-starter-master\S3\src\test\java\starter\stepdefinition\StepDefAllReviews.java
 E:\AlterraAcademy\capstone-project\serenity-rest-starter-master\S3\src\test\java\starter\step\UpdateReview.java
