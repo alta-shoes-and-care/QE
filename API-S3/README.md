@@ -55,14 +55,14 @@ In the testing process using manual and automation testing with a behavior and u
 
 - Valid URL (positive test)
 <img
-  src="https://drive.google.com/file/d/1uPcyM7f26PEFeXXrw2UKgINTN9IgcY6b/view?usp=sharing"
+  src="https://github.com/alta-shoes-and-care/QE/blob/main/SS/Manual%20Testing%20-%20Web%20UI/1-Valid_URL.png"
   alt="Alt text"
   title="Valid URL"
   style="display: inline-block; margin: 0 auto; max-width: 50px">
   
   - Valid URL (negative test)
 <img
-  src="https://drive.google.com/file/d/1aOqaAziEH8u_yCY80qGyKhm1sHyuSe9-/view?usp=sharing"
+  src="https://github.com/alta-shoes-and-care/QE/blob/main/SS/Manual%20Testing%20-%20Web%20UI/2-Invalid_URL.png"
   alt="Alt text"
   title="Invalid URL"
   style="display: inline-block; margin: 0 auto; max-width: 50px">
