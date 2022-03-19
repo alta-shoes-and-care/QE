@@ -1,1 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Admin check all services" skipped="0" tests="1" time="4.49" timestamp="2022-03-13 03:48:11"><testcase name="as an Admin, I can all services on my menu service list"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Admin check all services" skipped="0" tests="1" time="6.4" timestamp="2022-03-20 06:34:00"><testcase name="as an Admin, I can all services on my menu service list"/></testsuite>

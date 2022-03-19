@@ -1,1 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Admin check all Payment Method List" skipped="0" tests="1" time="4.84" timestamp="2022-03-14 01:27:28"><testcase name="as an Admin, I want to check all the Payment Method"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Admin check all Payment Method List" skipped="0" tests="1" time="8.08" timestamp="2022-03-20 06:22:33"><testcase name="as an Admin, I want to check all the Payment Method"/></testsuite>

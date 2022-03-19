@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: Admin check all Payment Method List
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.725 s - in Admin check all Payment Method List

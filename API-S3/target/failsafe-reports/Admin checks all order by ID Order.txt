@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: Admin checks all order by ID Order
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.857 s - in Admin checks all order by ID Order
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.563 s - in Admin checks all order by ID Order

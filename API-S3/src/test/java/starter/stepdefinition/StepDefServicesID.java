@@ -18,6 +18,6 @@ public class StepDefServicesID {
 
     @Then("the API give response and i can see the data services")
     public void ResponseDataServiceID() {
-        SerenityRest.restAssuredThat(response -> response.statusCode(201));
+        SerenityRest.restAssuredThat(response -> response.statusCode(200));
     }
 }

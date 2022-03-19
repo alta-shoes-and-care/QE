@@ -1,1 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Admin checks all order by ID Order" skipped="0" tests="1" time="4.53" timestamp="2022-03-15 01:20:17"><testcase name="as an Admin, I can check the incoming order by Order ID"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Admin checks all order by ID Order" skipped="0" tests="1" time="6.1" timestamp="2022-03-20 06:42:13"><testcase name="as an Admin, I can check the incoming order by Order ID"/></testsuite>

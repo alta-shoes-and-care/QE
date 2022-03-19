@@ -19,7 +19,7 @@ public class StepDefAllServices {
 
     @Then("the API give response and i can check the service list")
     public void APIResponse() {
-        SerenityRest.restAssuredThat(response -> response.statusCode(201));
+        SerenityRest.restAssuredThat(response -> response.statusCode(200));
     }
 
 

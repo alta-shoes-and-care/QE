@@ -4,7 +4,7 @@ import net.serenitybdd.rest.SerenityRest;
 import net.thucydides.core.annotations.Step;
 
 public class ServicesByID {
-    public static String URLCreate = "https://ynwahid.cloud.okteto.net/services/67";
+    public static String URLCreate = "https://ynwahid.cloud.okteto.net/services/6";
 
     @Step
     public static void CheckServicesID(){
