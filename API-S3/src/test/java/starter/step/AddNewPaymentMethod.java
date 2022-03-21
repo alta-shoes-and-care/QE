@@ -9,16 +9,16 @@ public class AddNewPaymentMethod {
     public static String URLCreate = "https://ynwahid.cloud.okteto.net/payments";
 
     @Step
-    public static void PaymentMethod(String payment) {
+    public static void PaymentMethod(String name) {
         JSONObject data = new JSONObject();
-        data.put("payment", payment);
+        data.put("name", name);
 
         SerenityRest.given()
                 .contentType(ContentType.JSON)
                 .body(data.toString())
-                .body(payment)
+                .body(name)
                 .log().all()
                 .when()
-                .put(URLCreate);
+                .post(URLCreate);
     }
 }

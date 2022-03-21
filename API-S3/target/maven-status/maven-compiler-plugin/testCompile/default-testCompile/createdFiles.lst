@@ -1,9 +1,13 @@
 starter\stepdefinition\StepDefUpdate.class
 starter\step\SignIn.class
+starter\step\PaymentRefund.class
 starter\step\Services.class
 starter\stepdefinition\StepDefServices.class
 starter\CucumberTestSuite.class
 starter\step\Update.class
 starter\stepdefinition\StepDefSignIn.class
 starter\step\Register.class
+starter\stepdefinition\StepDefRefund.class
 starter\stepdefinition\StepDefReg.class
+starter\step\CancelOrder.class
+starter\stepdefinition\StepDefCancelOrder.class
