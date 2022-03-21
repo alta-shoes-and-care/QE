@@ -72,8 +72,10 @@ In the testing process using manual and automation testing with a behavior and u
   alt="Alt text"
   title="Delete Review"
   style="display: inline-block; margin: 0 auto; max-width: 50px">  
-
   
+
+  ## API Automation Test Video
+  [![Watch the video](https://github.com/alta-shoes-and-care/QE-API_Automation/blob/main/SS/API%20automation/GetAllPaymentMethod_(%2B).png)](https://github.com/alta-shoes-and-care/QE-API_Automation/blob/main/SS/Recording/5.API%20Automation%20All%20Payment%20Method.mp4)
 
 ## Tech Stack  
 
