@@ -75,7 +75,14 @@ In the testing process using manual and automation testing with a behavior and u
   
 
   ## API Automation Test Video
-      API Automation All Payment Method.mp4
+      
+    https://user-images.githubusercontent.com/98515873/159303512-8819d905-dd3d-4c11-9d4b-af926cf4410c.mp4
+
+
+
+
+
+
 
 ## Tech Stack  
 
