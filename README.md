@@ -92,6 +92,8 @@ In the testing process using manual and automation testing with a behavior and u
 
 **Testing Tools for automation:** 
 - [IntelliJ IDEA](https://www.jetbrains.com/idea/)
+- [Java](https://www.java.com/)
+- [Maven](https://maven.apache.org/)
 - [Google Chrome (WEB Browser)](https://www.google.com/chrome/)
 
 **Framework for automation:**
