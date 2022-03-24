@@ -96,6 +96,7 @@ In the testing process using manual and automation testing with a behavior and u
 
 **Framework for automation:**
 - [Serenity BDD](https://serenity-bdd.info/)
+- [Cucumber](https://cucumber.io/)
 
 **Documentation Tools:** 
 - [Google spreadsheet](https://www.google.com/sheets/about/)
@@ -103,6 +104,8 @@ In the testing process using manual and automation testing with a behavior and u
 **Collaboration:**
 - [Trello (Work Management Tool)](https://trello.com/)
 - [GitHub (Version Control System Platform)](https://github.com/)
+- [Telegram](https://web.telegram.org/)
+- [Google Meet](https://meet.google.com/)
 
 
 
